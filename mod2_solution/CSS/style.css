@@ -1,0 +1,90 @@
+ *{
+    box-sizing: border-box;
+  }
+  .row {
+    width: 100%;
+  }
+  .text{
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  h1{
+      text-align: center;
+      color: purple;
+  }
+  @media (min-width: 992px) {
+    .col-lg-4{
+      float: left;
+      background-color: pink;
+      height: 150px;
+      border: 2px solid black;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6{
+      float: left;
+      padding: 5px;
+      background-color: pink;
+      height: 150px;
+      border: 2px solid black;
+      margin-left: 5px;
+    }
+    .col-lg-4.col-md-6.col-sm-12.para-3{
+      margin-top: 20px !important;
+      width: 91.5% !important;
+    }
+    .col-lg-4.col-md-6.col-sm-12 {
+      width: 44% !important;
+    }
+  }
+  @media (max-width: 767px) {
+    .col-sm-12 {
+      float: left;
+      padding: 5px;
+      height: 150px;
+      background-color: pink;
+      border: 2px solid black;
+      width: auto;
+      height: auto;
+    }
+    .col-lg-4.col-md-6.col-sm-12 {
+      margin-top: 20px !important;
+      width: 90% !important;
+    }
+  }
+  .col-lg-4.col-md-6.col-sm-12{
+      width: 29%;
+      height: auto;
+  }
+  .para{
+    margin-left: 33px;
+  }
+  div#container-fluid {
+    position: relative;
+    top: 60px;
+  }
+  #p1, #p2, #p3{
+    border: solid 2px black;
+    border-top: none;
+    border-right: none;
+    float: right;
+    margin: 0;
+    padding: 0; 
+    height: 30px;
+    width: 100px;
+    text-align: center;
+  }
+  #p1 { 
+    background-color: green;
+    color: black;
+  }
+  #p2 {
+    background-color: brown;
+    color: white;
+  }
+  #p3 {
+    background-color: orange;
+    color: black;
+  }
+  
