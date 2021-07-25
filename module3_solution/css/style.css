@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+  }
+  .row {
+    width: 100%;
+    padding: 25px;
+
+  }
+  h1{
+      color: purple !important;
+  }
+  .col-xs-12{
+    background-color: pink;
+    border: 2px solid black;
+    margin-left: 15px !important;
+  }
+
+  @media (min-width: 992px) {
+    #nav-list{
+      display: none;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+      #nav-list{
+        display: none;
+      }
+  }
+  
+#collapsable-nav{
+  background-color: grey !important ;
+
+}
+.container-fluid{
+  background-color: grey !important ;
+}
+.navbar-brand{
+    text-align: left;
+    color: black !important;
+    font-size: 25px !important;
+    padding-top: 15px !important;
+}
+ h3 {
+    text-align: center;
+}
+.list{
+  text-align: center;
+  border-bottom: black 2px solid;
+  color: black !important;
+  background-color: brown !important;
+
+}
+.navbar-default .navbar-toggle{
+  background-color: black;
+
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: white;
+}
